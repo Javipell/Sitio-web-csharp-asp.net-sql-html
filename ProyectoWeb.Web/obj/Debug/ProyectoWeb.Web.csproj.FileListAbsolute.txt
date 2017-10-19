@@ -1,0 +1,14 @@
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\bin\ProyectoWeb.Web.dll.config
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\bin\ProyectoWeb.Web.dll
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\bin\ProyectoWeb.Web.pdb
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\bin\ProyectoWeb.Infraestructura.dll
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\bin\EntityFramework.dll
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\bin\ProyectoWeb.Infraestructura.pdb
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\bin\ProyectoWeb.Infraestructura.dll.config
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\bin\EntityFramework.xml
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\obj\Debug\ProyectoWeb.Web.csprojResolveAssemblyReference.cache
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\obj\Debug\ProyectoWeb.Web.csproj.CoreCompileInputs.cache
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\obj\Debug\ProyectoWeb.Web.dll
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Web\obj\Debug\ProyectoWeb.Web.pdb

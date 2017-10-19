@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProyectoWebStoreContainer" CdmEntityContainer="ProyectoWebContainer">
+    <EntitySetMapping Name="EntrevistasSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ProyectoWeb.Entrevistas)">
+        <MappingFragment StoreEntitySet="EntrevistasSet">
+          <ScalarProperty Name="IdEntrevista" ColumnName="IdEntrevista" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="Dni" ColumnName="Dni" />
+          <ScalarProperty Name="Asiste" ColumnName="Asiste" />
+          <ScalarProperty Name="Valoracion" ColumnName="Valoracion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsuariosSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ProyectoWeb.Usuarios)">
+        <MappingFragment StoreEntitySet="UsuariosSet">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="NombreUsuario" ColumnName="NombreUsuario" />
+          <ScalarProperty Name="NickUsuario" ColumnName="NickUsuario" />
+          <ScalarProperty Name="ClaveUsuario" ColumnName="ClaveUsuario" />
+          <ScalarProperty Name="Administrador" ColumnName="Administrador" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MenusSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ProyectoWeb.Menus)">
+        <MappingFragment StoreEntitySet="MenusSet">
+          <ScalarProperty Name="IdMenu" ColumnName="IdMenu" />
+          <ScalarProperty Name="GrupoMenu" ColumnName="GrupoMenu" />
+          <ScalarProperty Name="Posicion" ColumnName="Posicion" />
+          <ScalarProperty Name="NombreMenu" ColumnName="NombreMenu" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="TipoUsuario" ColumnName="TipoUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubMenuSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ProyectoWeb.SubMenu)">
+        <MappingFragment StoreEntitySet="SubMenuSet">
+          <ScalarProperty Name="IdSubMenu" ColumnName="IdSubMenu" />
+          <ScalarProperty Name="GrupoMenu" ColumnName="GrupoMenu" />
+          <ScalarProperty Name="Posicion" ColumnName="Posicion" />
+          <ScalarProperty Name="NombreSubMenu" ColumnName="NombreSubMenu" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="TipoUsuario" ColumnName="TipoUsuario" />
+          <ScalarProperty Name="IdMenu" ColumnName="IdMenu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
