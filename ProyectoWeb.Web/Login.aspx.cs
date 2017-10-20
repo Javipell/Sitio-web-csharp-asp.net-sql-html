@@ -38,7 +38,7 @@ namespace ProyectoWeb.Web
                     else
                     {
                         Application.Lock();
-                        Application["usuario"] = "registrado";
+                        Application["usuario"] = dataSet.Tables[0].Rows[0]["NombreUsuario"].ToString();
                         Application.UnLock();
                     }
                     //Response.Write("<script laguage=javascript> alert('cambio " + Application["usuario"] + "');</script>");
@@ -53,9 +53,10 @@ namespace ProyectoWeb.Web
                     mensaje = "ERROR DE ACCESO.";
                 }
                 
-                Response.Write("<script laguage=javascript> alert('" + mensaje + "');</script>");
+                Response.Write("<script> alert('" + mensaje + "');</script>");
                 Response.Redirect("Inicio.aspx");
                 
+
             }
         }
     }

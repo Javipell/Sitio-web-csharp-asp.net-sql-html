@@ -8,3 +8,4 @@ C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Infraestructura\bin\Debug\Ent
 C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Infraestructura\obj\Debug\ProyectoWeb.Infraestructura.csproj.CoreCompileInputs.cache
 C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Infraestructura\obj\Debug\ProyectoWeb.Infraestructura.dll
 C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Infraestructura\obj\Debug\ProyectoWeb.Infraestructura.pdb
+C:\Users\pepe\source\repos\ProyectoWeb\ProyectoWeb.Infraestructura\obj\Debug\ProyectoWeb.Infraestructura.csprojResolveAssemblyReference.cache

@@ -177,6 +177,7 @@
     <Content Include="js\mosaic.1.0.1.min.js" />
     <Content Include="js\timeline.js" />
     <Content Include="Login.aspx" />
+    <Content Include="Mensaje.html" />
     <Content Include="Principal.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

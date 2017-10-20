@@ -36,5 +36,36 @@ namespace ProyectoWeb.Infraestructura
             }
             return dataSet;
         }
+        public string ConsultasAID(string sql)
+        {
+            string resultado = "";
+            if (string.IsNullOrEmpty(cadenaConexion))
+            {
+                cadenaConexion = "Data Source=localhost;Initial Catalog=BdEntrevistas;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework";
+            }
+            SqlConnection conexion = new SqlConnection(cadenaConexion);
+            SqlCommand comando = new SqlCommand(sql, conexion);
+
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+                conexion.Close();
+            }
+            catch (Exception ex)
+            {
+                conexion.Close();
+                resultado = ""+ ex.Message;
+                //throw;
+            }
+            finally
+            {
+                if (conexion.State == System.Data.ConnectionState.Open)
+                {
+                    conexion.Close();
+                }
+            }
+            return resultado;
+        }
     }
 }
