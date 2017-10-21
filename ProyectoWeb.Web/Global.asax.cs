@@ -13,6 +13,8 @@ namespace ProyectoWeb.Web
         protected void Application_Start(object sender, EventArgs e)
         {
             Application["usuario"] = "todos";
+            Application["tipoUsuario"] = "todos";
+            Application["empresa"] = "JAVIPELL";
             Application["bienvenido"] = "DISEÑO ELEGANTE";
             Application["comentario"] = "Con la plantilla de sitio web adecuada, excelente y receptiva, podrá atraer visitantes y aumentar sus ventas. Este es un tema elegante diseñado para usos múltiples.";
             Application["opcion"] = "";

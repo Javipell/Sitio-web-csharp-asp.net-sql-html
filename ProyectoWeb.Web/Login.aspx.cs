@@ -33,12 +33,14 @@ namespace ProyectoWeb.Web
                     {
                         Application.Lock();
                         Application["usuario"] = "admin";
+                        Application["tipoUsuario"] = "admin";
                         Application.UnLock();
                     }
                     else
                     {
                         Application.Lock();
                         Application["usuario"] = dataSet.Tables[0].Rows[0]["NombreUsuario"].ToString();
+                        Application["tipoUsuario"] = "registrado";
                         Application.UnLock();
                     }
                     //Response.Write("<script laguage=javascript> alert('cambio " + Application["usuario"] + "');</script>");
@@ -58,6 +60,13 @@ namespace ProyectoWeb.Web
                 
 
             }
+        }
+        protected void cerrarSesion()
+        {
+            Application.Lock();
+            Application["usuario"] = "todos";
+            Application.UnLock();
+            Response.Redirect("Inicio.aspx");
         }
     }
 }

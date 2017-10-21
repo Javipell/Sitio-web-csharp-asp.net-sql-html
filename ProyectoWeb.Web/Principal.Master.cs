@@ -20,7 +20,7 @@ namespace ProyectoWeb.Web
 
         public void CrearMenu()
         {
-            string sql = String.Format("SELECT * FROM MenusSet WHERE TipoUsuario='{0}'; SELECT * FROM SubMenuSet WHERE TipoUsuario='{1}'", Application["usuario"], Application["usuario"]);
+            string sql = String.Format("SELECT * FROM MenusSet WHERE TipoUsuario='{0}'; SELECT * FROM SubMenuSet WHERE TipoUsuario='{1}'", Application["tipoUsuario"], Application["tipoUsuario"]);
 
             //Response.Write("<script laguage=javascript> alert('Carga de pagina: " + Application["usuario"] + "');</script>");
 
