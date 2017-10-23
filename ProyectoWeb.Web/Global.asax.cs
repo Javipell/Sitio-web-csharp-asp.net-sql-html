@@ -16,7 +16,7 @@ namespace ProyectoWeb.Web
             Application["tipoUsuario"] = "todos";
             Application["empresa"] = "JAVIPELL";
             Application["bienvenido"] = "DISEÑO ELEGANTE";
-            Application["comentario"] = "Con la plantilla de sitio web adecuada, excelente y receptiva, podrá atraer visitantes y aumentar sus ventas. Este es un tema elegante diseñado para usos múltiples.";
+            Application["comentario"] = "Sitio en pruebas. \nUsuario : admin \nContraseña : admin. \nGestión de un sitio Web. ";
             Application["opcion"] = "";
             Application["imagen"] = "";
             Application["destino"] = "#";

@@ -110,6 +110,7 @@
     <Content Include="bootstrap-3.3.7-dist\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="packages.config" />
     <Content Include="GestionMenus.aspx" />
+    <Content Include="GestionSubMenus.aspx" />
     <Content Include="GestionUsuarios.aspx" />
     <Content Include="Global.asax" />
     <Content Include="imagenes\add_icon_color.gif" />
@@ -255,6 +256,13 @@
     </Compile>
     <Compile Include="GestionMenus.aspx.designer.cs">
       <DependentUpon>GestionMenus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionSubMenus.aspx.cs">
+      <DependentUpon>GestionSubMenus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionSubMenus.aspx.designer.cs">
+      <DependentUpon>GestionSubMenus.aspx</DependentUpon>
     </Compile>
     <Compile Include="GestionUsuarios.aspx.cs">
       <DependentUpon>GestionUsuarios.aspx</DependentUpon>
